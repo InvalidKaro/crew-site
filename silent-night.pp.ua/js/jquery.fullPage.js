@@ -108,7 +108,7 @@
         options = $.extend({
             //navigation
             menu: '#bottomMenu',
-            anchors: ['Home', 'About', 'Impressum', 'Constructions'],
+            anchors: ['Home', 'About', 'Impressum', 'Construction'],
             lockAnchors: false,
             navigation: true,
             navigationPosition: 'nav-position',
