@@ -528,6 +528,121 @@ a.light-btn.colored:hover #second-text {
     opacity: 1 !important;
 }
 
+
+
+
+
+a.scnd-btn {
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 60px;
+    margin: 15px 0 0 0;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: transparent;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+a.scnd-btn:hover {
+    color: #000000;
+    background: #ffffff;
+}
+
+a.scnd-btn:hover .ask-to-scroll .arrow span {
+    background: #000000;
+}
+
+a.scnd-btn.colored {
+    margin-right: 15px;
+}
+
+a.scnd-btn.colored:before {
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background: linear-gradient(45deg, #051dff 0, #b500ff 100%);
+}
+
+a.scnd-btn.colored:after {
+    position: absolute;
+    z-index: -20;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+    background: linear-gradient(225deg, #051dff 0, #b500ff 100%);
+}
+
+a.scnd-btn.colored span {
+    -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a.scnd-btn.colored #second-text {
+    line-height: 2.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateY(15px) !important;
+    transform: translateY(15px) !important;
+    text-align: center;
+    opacity: 0 !important;
+}
+
+a.scnd-btn.colored:hover {
+    color: #ffffff;
+    background: transparent;
+}
+
+a.scnd-btn.colored:hover:before {
+    opacity: 0;
+}
+
+a.scnd-btn.colored:hover:after {
+    opacity: 1;
+}
+
+a.scnd-btn.colored:hover #first-text {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    opacity: 0;
+}
+
+a.scnd-btn.colored:hover #second-text {
+    -webkit-transform: translateY(0) !important;
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+}
+
+
 button {
     cursor: pointer;
     -webkit-transition: all 0.2s ease-in-out;
