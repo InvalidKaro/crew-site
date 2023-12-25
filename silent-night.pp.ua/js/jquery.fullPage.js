@@ -108,11 +108,11 @@
         options = $.extend({
             //navigation
             menu: '#bottomMenu',
-            anchors: ['Home', 'About', 'Impressum'],
+            anchors: ['Home', 'About', 'Impressum', 'Constructions'],
             lockAnchors: false,
             navigation: true,
             navigationPosition: 'nav-position',
-            navigationTooltips: ['Home', 'About', 'Impressum'],
+            navigationTooltips: ['Home', 'About', 'Impressum', 'Construction'],
             showActiveTooltip: true,
             slidesNavigation: false,
             slidesNavPosition: 'bottom',
