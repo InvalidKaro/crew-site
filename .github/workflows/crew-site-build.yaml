@@ -14,7 +14,8 @@ on:
         type: string
 
 env:
-  DEPLOYMENT_FOLDER: ./
+  DEPLOYMENT_FOLDER: ./silent-night.pp.ua
+  
 
 jobs:
 # Please do not rename this job
