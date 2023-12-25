@@ -224,7 +224,28 @@
 
                     <li class="player-command"><a onclick="$('#bgndVideo').playYTP()"><i class="fas fa-play"></i></a></li>
                     <li class="player-command"><a onclick="$('#bgndVideo').pauseYTP()"><i class="fas fa-pause"></i></a></li>
-                    <li class="player-command"><a onclick="$('#bgndVideo').YTPMute()"><i class="fa fa-volume-up" aria-hidden="true"></i></i></a></li>
+                    <li class="player-command">
+                        <a onclick="toggleMute()">
+                            <i id="volumeIcon" class="fa fa-volume-up" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    
+                    <script>
+                        function toggleMute() {
+                            var video = $('#bgndVideo');
+                            var volumeIcon = $('#volumeIcon');
+                    
+                            if (video.data('property').mute) {
+                                // If mute is true, unmute and change icon to volume up
+                                video.YTPUnMute();
+                                volumeIcon.removeClass('fa-volume-mute').addClass('fa-volume-up');
+                            } else {
+                                // If mute is false, mute and change icon to volume mute
+                                video.YTPMute();
+                                volumeIcon.removeClass('fa-volume-up').addClass('fa-volume-mute');
+                            }
+                        }
+                    </script>
                     <li class="player-command"><a onclick="$('#bgndVideo').YTPFullscreen()"><i class="fas fa-expand"></i></a></li>
                 </ul>
             </div>
