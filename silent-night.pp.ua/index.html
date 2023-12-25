@@ -33,6 +33,7 @@
     <script src="js/modernizr.custom.js"></script>
 
     <script src="../kit.fontawesome.com/e99732694a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Montserrat:400,700|Oswald:300,400,600,700|PT+Sans:400,700">
 
 
     <meta name="keywords" content="gta 5, gta 5 online, crew">
@@ -49,16 +50,19 @@
     </button>
     <div class="slideshow"></div>
     <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/XD9As16fBGU', containment:'body', autoPlay:false, repeat:true, mute:false, startAt:0, stopAt:0, opacity:0.5}"></a>
-
+    
     <script>
         $(document).ready(function() {
             // Initialize YouTube player
-            $('#bgndVideo').YTPlayer();
-    
-            // Start playing the video once the document is fully loaded
-            $('#bgndVideo').YTPPlay();
+            $('#bgndVideo').YTPlayer({
+                onReady: function(player) {
+                    // Start playing the video once the player is ready
+                    player.playVideo();
+                }
+            });
         });
     </script>
+
     
     <div class="custom-overlay"></div>
     <a class="brand-logo" href="#Home">
