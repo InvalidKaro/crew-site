@@ -1018,6 +1018,30 @@ sup {
     transition: all 0.3s ease-in-out !important;
 }
 
+
+
+.hand_blood {
+    position: absolute;
+    z-index: 50;
+    z-index: 10001;
+    top: 100px;
+    left: 50px;
+    max-width: 65px;
+    -webkit-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    -webkit-transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 100px, 0);
+}
+
+.hand_blood.loaded {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.hand_blood.after-load {
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
 /* ------------------------------------- */
 
 /* 4. FULLPAGE ......................... */
