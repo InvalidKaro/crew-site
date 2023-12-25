@@ -1127,7 +1127,7 @@ sup {
     position: absolute;
     z-index: 50;
     z-index: 10001;
-    top: 51px;
+    top: 50px;
     left: 50px;
     max-width: 65px;
     -webkit-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
