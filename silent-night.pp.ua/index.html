@@ -49,6 +49,19 @@
     </button>
     <div class="slideshow"></div>
     <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/XD9As16fBGU', containment:'body', autoPlay:true, repeat:true, mute:false, startAt:0, stopAt:0, opacity:0.5}"></a>
+
+    <script>
+        $(document).ready(function() {
+            // Initialize YouTube player
+            $('#bgndVideo').YTPlayer({
+                onReady: function(player) {
+                    // Start playing the video once the player is ready
+                    player.play();
+                }
+            });
+        });
+    </script>
+    
     <div class="custom-overlay"></div>
     <a class="brand-logo" href="#Home">
         <img src="img/smoke.jpeg" alt="logo" class="img-fluid"/>
@@ -235,14 +248,17 @@
                             var video = $('#bgndVideo');
                             var volumeIcon = $('#volumeIcon');
                     
-                            if (video.data('property').mute) {
-                                // If mute is true, unmute and change icon to volume up
-                                video.YTPUnMute();
-                                volumeIcon.removeClass('fa-volume-mute').addClass('fa-volume-up');
-                            } else {
-                                // If mute is false, mute and change icon to volume mute
-                                video.YTPMute();
-                                volumeIcon.removeClass('fa-volume-up').addClass('fa-volume-mute');
+                            if (video.YTPGetPlayer) {
+                                var player = video.YTPGetPlayer();
+                                if (player.isMuted()) {
+                                    // If muted, unmute and change icon to volume up
+                                    player.unMute();
+                                    volumeIcon.removeClass('fa-volume-mute').addClass('fa-volume-up');
+                                } else {
+                                    // If not muted, mute and change icon to volume mute
+                                    player.mute();
+                                    volumeIcon.removeClass('fa-volume-up').addClass('fa-volume-mute');
+                                }
                             }
                         }
                     </script>
