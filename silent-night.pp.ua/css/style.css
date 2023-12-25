@@ -537,8 +537,6 @@ a.scnd-btn {
     font-size: 2rem;
     font-weight: 700;
     position: relative;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     height: 60px;
     margin: 15px 0 0 0;
@@ -549,12 +547,9 @@ a.scnd-btn {
     border: 1px solid #ffffff;
     border-radius: 5px;
     background: transparent;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
+    text-decoration: none; /* To remove default underline */
 }
 
 a.scnd-btn:hover {
@@ -579,7 +574,6 @@ a.scnd-btn.colored:before {
     width: 100%;
     height: 100%;
     content: "";
-    -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
     background: linear-gradient(45deg, #051dff 0, #b500ff 100%);
 }
@@ -593,14 +587,12 @@ a.scnd-btn.colored:after {
     width: 100%;
     height: 100%;
     content: "";
-    -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
     opacity: 0;
     background: linear-gradient(225deg, #051dff 0, #b500ff 100%);
 }
 
 a.scnd-btn.colored span {
-    -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -611,7 +603,6 @@ a.scnd-btn.colored #second-text {
     left: 0;
     width: 100%;
     height: 100%;
-    -webkit-transform: translateY(15px) !important;
     transform: translateY(15px) !important;
     text-align: center;
     opacity: 0 !important;
@@ -631,17 +622,14 @@ a.scnd-btn.colored:hover:after {
 }
 
 a.scnd-btn.colored:hover #first-text {
-    -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
     opacity: 0;
 }
 
 a.scnd-btn.colored:hover #second-text {
-    -webkit-transform: translateY(0) !important;
     transform: translateY(0) !important;
     opacity: 1 !important;
 }
-
 
 button {
     cursor: pointer;
