@@ -18,7 +18,7 @@ Version	Supported
 
 If you discover a security vulnerability within our project, please follow these steps to report it:
 
-1. Email: Send an email to security@example.com with a detailed description of the vulnerability.
+1. Email: Send an email to security@invalidkaro.dev with a detailed description of the vulnerability.
 2. Subject: Use a clear and descriptive subject for the email.
 3. Response Time: We will acknowledge your email within 48 hours and provide an estimated timeline for when a fix can be expected.
 4. Fix and Disclosure: Once the vulnerability is fixed, we will provide an update on the fix and, if applicable, coordinate a disclosure plan.
