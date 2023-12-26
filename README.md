@@ -10,10 +10,8 @@
     Unleash the mayhem, blood of my blood. 
     <br/>
     <br/>
-    <a href="https://github.com/InvalidKaro/crew-site"><strong>Explore the docs »</strong></a>
     <br/>
-    <br/>
-    <a href="https://github.com/InvalidKaro/crew-site">View Demo</a>
+    <a href="https://crew.invalidkaro.dev">View Demo</a>
     .
     <a href="https://github.com/InvalidKaro/crew-site/issues">Report Bug</a>
     .
