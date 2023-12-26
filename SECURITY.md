@@ -24,9 +24,9 @@ If you discover a security vulnerability within our project, please follow these
 4. Fix and Disclosure: Once the vulnerability is fixed, we will provide an update on the fix and, if applicable, coordinate a disclosure plan.
    
 ## Expectations
-* We aim to address security vulnerabilities promptly.
-* If a reported vulnerability is accepted, we will work diligently to provide a fix in the next supported release.
-* If a vulnerability report is declined, we will provide reasons for our decision and encourage further discussion if needed.
+- We aim to address security vulnerabilities promptly.
+- If a reported vulnerability is accepted, we will work diligently to provide a fix in the next supported release.
+- If a vulnerability report is declined, we will provide reasons for our decision and encourage further discussion if needed.
 
 
 
