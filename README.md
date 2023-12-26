@@ -40,8 +40,7 @@
 
 ## About The Project
 
-![Screen Shot](https://github.com/InvalidKaro/crew-site/blob/main/silent-night.1l.gg/content/cdn/xxx.png))](https://github.com/InvalidKaro/crew-site/blob/main/silent-night.1l.gg/content/cdn/xxx.png)
-
+![Screen Shot](https://github.com/InvalidKaro/crew-site/blob/main/silent-night.1l.gg/content/cdn/xxx.png)
 **🚀 About This Project:**
 
 This website is a creative space where I unleash my coding prowess and share my passion for gaming, particularly within the Grand Theft Auto V universe. It serves as both my personal code playground and the central hub for our GTA V crew, "Blud of My Blud."
