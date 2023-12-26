@@ -21,7 +21,10 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/InvalidKaro/crew-site?color=dark-green) ![Forks](https://img.shields.io/github/forks/InvalidKaro/crew-site?style=social) ![Stargazers](https://img.shields.io/github/stars/InvalidKaro/crew-site?style=social) ![Issues](https://img.shields.io/github/issues/InvalidKaro/crew-site) ![License](https://img.shields.io/github/license/InvalidKaro/crew-site) 
+![Contributors](https://img.shields.io/github/contributors/InvalidKaro/crew-site?color=dark-green) ![Forks](https://img.shields.io/github/forks/InvalidKaro/crew-site?style=social) ![Stargazers](https://img.shields.io/github/stars/InvalidKaro/crew-site?style=social) ![Issues](https://img.shields.io/github/issues/InvalidKaro/crew-site) ![License](https://img.shields.io/github/license/InvalidKaro/crew-site) ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/InvalidKaro/crew-site?color=green)
+![Discord](https://img.shields.io/discord/1175742175045234861?style=social&logo=discord&logoColor=black)
+
+
 
 ## Table Of Contents
 
