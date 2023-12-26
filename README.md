@@ -40,7 +40,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot]([images/screenshot.png](https://github.com/InvalidKaro/crew-site/blob/main/silent-night.1l.gg/content/cdn/xxx.png))
 
 **🚀 About This Project:**
 
