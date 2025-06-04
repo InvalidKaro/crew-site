@@ -1,12 +1,20 @@
 {
+  "name": "silent-night",
+  "version": "1.0.0",
+  "description": "Node.js project with express and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step needed'",
+    "test": "jest --coverage --forceExit"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "http": "^0.0.1-security",
     "server": "^1.0.38",
     "socket.io": "^4.7.2"
   },
-  "scripts": {
-    "start": "node index.js",
-    "test": "jest --coverage --forceExit"
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
